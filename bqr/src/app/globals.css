@@ -250,3 +250,39 @@ textarea::placeholder {
 .rounded-full {
   border-radius: 9999px;
 }
+:root {
+  --brand-bg: #101E3A;
+  --brand-button: #00C4CC;
+  --brand-button-text: #0b1b22;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--brand-bg);
+  color: #ffffff;
+}
+
+/* Botones genéricos */
+button,
+a[role="button"],
+.btn,
+button.primary {
+  background-color: var(--brand-button);
+  color: var(--brand-button-text);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+/* Hover suave */
+button:hover,
+a[role="button"]:hover,
+.btn:hover,
+button.primary:hover {
+  filter: brightness(0.95);
+}
