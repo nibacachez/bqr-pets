@@ -13,19 +13,12 @@
     "@types/qrcode.react": "^1.0.5",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
-<<<<<<< HEAD
     "lucide-react": "^1.7.0",
     "next": "^15.2.4",
     "qrcode.react": "^4.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "resend": "^6.10.0"
-=======
-    "next": "16.2.2",
-    "qrcode.react": "^4.2.0",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
->>>>>>> 40f82eab594e550b16bb444d4a922e8d85565fae
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
