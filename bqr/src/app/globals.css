@@ -285,6 +285,7 @@ a[role="button"]:hover,
 .btn:hover,
 button.primary:hover {
   filter: brightness(0.95);
+<<<<<<< HEAD
 }
 
 /* ============================================
@@ -362,4 +363,6 @@ button.primary:hover {
 
 .animate-fadeIn {
   animation: fadeIn 0.5s ease-out forwards;
+=======
+>>>>>>> 40f82eab594e550b16bb444d4a922e8d85565fae
 }
