@@ -1,31 +1,7 @@
 {
-  "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "installCommand": "npm ci",
-  "framework": "nextjs",
-  "env": [
-    {
-      "key": "NEXT_PUBLIC_SUPABASE_URL",
-      "description": "URL pública de Supabase",
-      "required": true
-    },
-    {
-      "key": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
-      "description": "Clave anónima pública de Supabase",
-      "required": true
-    },
-    {
-      "key": "SENDGRID_API_KEY",
-      "description": "API key de SendGrid para envío de emails",
-      "required": true
-    }
-  ],
   "git": {
     "deploymentEnabled": {
       "main": true
     }
-  },
-  "analytics": {
-    "enabled": true
   }
 }
