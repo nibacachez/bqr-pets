@@ -1,6 +1,6 @@
 'use client';
 
-import QRCode from 'qrcode.react';
+import { QRCodeCanvas as QRCode } from 'qrcode.react';
 import { useRef } from 'react';
 
 interface QRCodeGeneratorProps {
